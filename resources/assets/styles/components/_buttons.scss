@@ -1,0 +1,27 @@
+.btn {
+  padding: 12px 30px;
+  border-radius: 0;
+  -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;
+
+  &:hover {
+    -webkit-box-shadow: 0 4px 13px 1px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 4px 13px 1px rgba(0, 0, 0, 0.35);
+  }
+
+  &.red {
+    background-color: $red;
+    color: white;
+    font-size: 1.2rem;
+    background-image: url("../images/bg/button-pattern.png");
+
+    &:hover {
+      background-color: lighten($red, 2%);
+    }
+  }
+}

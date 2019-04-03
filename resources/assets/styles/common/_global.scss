@@ -1,0 +1,22 @@
+html,
+body {
+  font-family: $sans;
+}
+
+h1,
+h2 {
+  font-family: $serif;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  color: $red;
+
+  &:hover {
+    text-decoration: underline;
+    color: darken($red, 3%);
+  }
+}

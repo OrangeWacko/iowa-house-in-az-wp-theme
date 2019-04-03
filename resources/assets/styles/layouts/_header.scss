@@ -1,0 +1,44 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+}
+
+#menu-main-menu {
+  li {
+    margin: 0 10px;
+
+    @media screen and (min-width: 992px) {
+      margin: 0 20px;
+    }
+
+    a {
+      color: $purple;
+      font-weight: 500;
+      font-size: 0.95rem;
+
+      @media screen and (min-width: 992px) {
+        font-size: 1.185rem;
+      }
+
+      &:hover {
+        text-decoration: none;
+        color: $red;
+      }
+    }
+  }
+}
+
+.custom-logo-link {
+  img {
+    display: block;
+    max-width: 140px;
+    height: auto;
+
+    @media screen and (min-width: 992px) {
+      max-width: 250px;
+    }
+  }
+}

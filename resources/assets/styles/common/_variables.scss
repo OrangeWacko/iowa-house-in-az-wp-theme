@@ -1,0 +1,16 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$serif: "Pridi", sans-serif;
+$sans: "Rubik", serif;
+
+$red: #f35f5c;
+$purple: #3d3c70;
+$black: #383539;
+$gray: #68606b;
+$yellow: #ffe066;
+$green: #29b3b6;
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;

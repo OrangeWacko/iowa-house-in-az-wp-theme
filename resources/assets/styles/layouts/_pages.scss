@@ -1,0 +1,337 @@
+/* large Image Banner */
+
+.main-img-intro {
+  background: url("../images/home-featured.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+
+  h1 {
+    font-family: $serif;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 3.5rem;
+    }
+
+    @media screen and (min-width: 1400px) {
+      font-size: 4.25rem;
+    }
+
+    @media screen and (min-width: 1600px) {
+      font-size: 4.8rem;
+    }
+  }
+
+  p {
+    max-width: 700px;
+    margin: 1rem auto;
+  }
+}
+
+/* Main Intro Content */
+
+.main-intro {
+  text-align: center;
+  padding: 10% 6%;
+
+  @media screen and (min-width: 1200px) {
+    //padding: 90px 6%;
+  }
+
+  h2 {
+    color: $purple;
+    padding-bottom: 20px;
+    position: relative;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 120px;
+      left: 50%;
+      bottom: 0;
+      margin-left: -60px;
+      position: absolute;
+      height: 12px;
+      background: url("../images/bg/line-pattern.png");
+      background-repeat: repeat-x;
+    }
+  }
+
+  p {
+    margin: 1.5rem auto;
+    font-size: 1.25rem;
+    max-width: 700px;
+  }
+}
+
+/* Main Content */
+.main {
+  padding: 8% 6%;
+
+  h1 {
+    color: $purple;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 5rem;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 120px;
+      left: 50%;
+      bottom: 0;
+      margin-left: -60px;
+      position: absolute;
+      height: 12px;
+      background: url("../images/bg/line-pattern.png");
+      background-repeat: repeat-x;
+    }
+  }
+}
+
+/* Home Features */
+.home-features {
+  background: url("../images/home-features.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  h2 {
+    padding-bottom: 20px;
+    position: relative;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 120px;
+      left: 50%;
+      bottom: 0;
+      margin-left: -60px;
+      position: absolute;
+      height: 12px;
+      background: url("../images/bg/line-pattern-yellow.png");
+      background-repeat: repeat-x;
+    }
+  }
+
+  ul {
+    padding: 0;
+    margin: 1rem auto;
+    list-style-type: none;
+
+    li {
+      text-align: center;
+
+      img {
+        max-width: 70px;
+        height: auto;
+        margin-bottom: 0.7rem;
+      }
+    }
+  }
+
+  .features-list {
+    background: rgba($red, 0.9);
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+
+    @media screen and (min-width: 1400px) {
+      padding: 80px 0;
+    }
+
+    .feature-name {
+      font-family: $sans;
+      text-transform: uppercase;
+      font-size: 1rem;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+/* Attractions Map */
+
+.attractions-main {
+  padding: 10% 0;
+}
+
+.attractions {
+  background: $purple;
+  color: white;
+
+  h3 {
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 2rem;
+  }
+
+  ol,
+  ul {
+    padding: 0;
+    margin-bottom: 2rem;
+    list-style-position: inside;
+
+    li {
+      margin-bottom: 0.65em;
+
+      a {
+        color: $red;
+      }
+
+      span {
+        float: right;
+        color: $yellow;
+      }
+    }
+  }
+}
+
+/* Map */
+
+.property-location {
+  position: relative;
+  padding: 0;
+  margin: 0;
+
+  .map-address {
+    background: rgba(70, 34, 85, 0.96);
+    padding: 30px 40px;
+    color: white;
+    position: relative;
+    -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+
+    @media screen and (min-width: 992px) {
+      padding: 50px 80px;
+      position: absolute;
+      z-index: 100;
+      left: 5%;
+      top: 25%;
+    }
+
+    &::after {
+      content: "";
+      width: 200px;
+      height: 200px;
+      display: block;
+      position: absolute;
+      right: -30px;
+      transform: rotate(20deg);
+      bottom: -60px;
+      background: url("../images/icons/white-logo.png");
+      background-size: cover;
+      opacity: 0.2;
+      pointer-events: none;
+    }
+
+    a {
+      color: $red;
+    }
+
+    p {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.image-grid {
+  position: relative;
+  max-width: 1400px;
+  margin: 2rem auto;
+
+  /* display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px; */
+
+  .img-item {
+    overflow: hidden;
+    width: 50%;
+    height: 120px;
+    position: relative;
+
+    a {
+      display: block;
+      margin: 10px 5px;
+      position: relative;
+      height: 100%;
+    }
+
+    @media screen and (min-width: 500px) {
+      height: 150px;
+    }
+  }
+
+  .img-item img {
+    display: block;
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+
+  /* Masonry Image gallery */
+  .image-item---width-64 {
+    @media screen and (min-width: 768px) {
+      width: 63.8%;
+      height: auto;
+    }
+  }
+
+  .image-item---width-36 {
+    @media screen and (min-width: 768px) {
+      width: 36.2%;
+      height: auto;
+    }
+  }
+
+  .image-item---width-50 {
+    width: 50%;
+
+    @media screen and (min-width: 768px) {
+      height: auto;
+    }
+  }
+
+  .image-item---width-33 {
+    @media screen and (min-width: 768px) {
+      width: 33.33%;
+      height: auto;
+    }
+  }
+}
+
+/* Map */
+
+#map {
+  width: 100%;
+  height: 300px;
+  position: relative;
+
+  @media screen and (min-width: 992px) {
+    height: 400px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    height: 550px;
+  }
+}
+
+#attractions-map {
+  position: relative;
+
+  @media screen and (min-width: 992px) {
+    height: 400px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    height: 550px;
+  }
+}
