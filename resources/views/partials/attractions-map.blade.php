@@ -1,12 +1,12 @@
 <div class="container-fluid attractions-main">
   <div class="row p-0 m-0">
-    <div class="col col-md-3 attractions p-3">
+    <div class="col col-md-5 col-xl-3 attractions p-3">
       <h3>Top 10 Attractions</h3>
       <ol>
         <li><a href="https://www.google.com/maps/place/Desert+Botanical+Garden/@33.4634597,-111.9469158,17z/data=!3m1!4b1!4m5!3m4!1s0x872b0953082d9e21:0x215ce99d25055d17!8m2!3d33.4634597!4d-111.9447271" target="_blank">Desert Botanical Garden</a><span class="distance" target="_blank">1mi</span></li>
         <li><a href="https://www.google.com/maps/place/Old+Town+Scottsdale,+Scottsdale,+AZ/@33.4803423,-111.9438015,14z/data=!3m1!4b1!4m5!3m4!1s0x872b0bbdd0eaf855:0x14177ccfda2d1e4e!8m2!3d33.4837146!4d-111.9187857" target="_blank">Old Town</a><span class="distance" target="_blank">1.2mi</span></li>
         <li><a href="https://www.google.com/maps/place/El+Dorado+Park/@33.4670609,-111.9168342,17z/data=!3m1!4b1!4m5!3m4!1s0x872b097cd0d0fc83:0xd8c5eeaae484cd66!8m2!3d33.4670609!4d-111.9146455" target="_blank">El Dorado Park</a><span class="distance" target="_blank">1.3mi</span></li>
-        <li><a href="https://www.google.com/maps/place/Arizona+Country+Club/@33.4818082,-111.960322,17z/data=!3m1!4b1!4m5!3m4!1s0x872b0c0b164edf43:0x47a7465f29abb741!8m2!3d33.4818082!4d-111.9581333" target="_blank">Arizona Country Club</a><span class="distance" target="_blank">1.39mi</span></li>
+        <li><a href="https://www.google.com/maps/place/Hole+in+the+Rock/@33.4566166,-111.9475698,17z/data=!3m1!4b1!4m5!3m4!1s0x872b0951c8a16b75:0x558db00adeacc2d!8m2!3d33.4566166!4d-111.9453758" target="_blank">Hole in the Rock</a><span class="distance" target="_blank">1.39mi</span></li>
         <li><a href="https://www.google.com/maps/place/Kitchen+56/@33.4886297,-111.9625914,17z/data=!3m1!4b1!4m5!3m4!1s0x872b0c731f2e5863:0x77853501d662f811!8m2!3d33.4886297!4d-111.9604027" target="_blank">Kitchen 56</a><span class="distance" target="_blank">1.72mi</span></li>
         <li><a href="https://www.google.com/maps/place/Phoenix+Zoo/@33.4511924,-111.9502256,17z/data=!3m1!4b1!4m5!3m4!1s0x872b0eb2c45e7b67:0x64a75aff2eea1970!8m2!3d33.4511924!4d-111.9480369" target="_blank">Phoenix Zoo</a><span class="distance" target="_blank">1.75mi</span></li>
         <li><a href="https://www.google.com/maps/place/Papago+Golf+Course/@33.461207,-111.9640462,17z/data=!3m1!4b1!4m5!3m4!1s0x872b0eaef1b69cc9:0x16fe707fbcbe07b9!8m2!3d33.461207!4d-111.9618575" target="_blank">Papago Golf Course</a><span class="distance" target="_blank">1.77mi</span></li>
@@ -15,7 +15,7 @@
         <li><a href="https://www.google.com/maps/place/In-N-Out+Burger/@33.434903,-111.9276157,17z/data=!3m1!4b1!4m5!3m4!1s0x872b091923a3772d:0x6cb5d594c48a458!8m2!3d33.434903!4d-111.925427" target="_blank">In-N-Burger</a><span class="distance">2.86mi</span></li>
       </ol>
     </div>
-    <div class="col col-md-9" id="attractions-map"></div>
+    <div class="col col-md-7 col-xl-9" id="attractions-map"></div>
   </div>
 </div>
 
@@ -247,7 +247,7 @@
         { locName: 'Desert Botanical Garden', position: new google.maps.LatLng(33.4634597,-111.9469158)},
         { locName: 'Old Town', position: new google.maps.LatLng(33.4803423,-111.9438015)},
         { locName: 'El Dorado Park', position: new google.maps.LatLng(33.4670609,-111.9168342)},
-        { locName: 'Arizona Country Club', position: new google.maps.LatLng(33.4818082,-111.960322)},
+        { locName: 'Hole in the Rock', position: new google.maps.LatLng(33.4566166,-111.9475698)},
         { locName: 'Kitchen 56', position: new google.maps.LatLng(33.4886297,-111.9625914)},
         { locName: 'Phoenix Zoo', position: new google.maps.LatLng(33.4511924,-111.9502256)},
         { locName: 'Papago Golf Course', position: new google.maps.LatLng(33.461207,-111.9640462)},

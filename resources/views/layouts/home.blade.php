@@ -26,29 +26,29 @@
         <div class="col col-md-6 offset-md-6 features-list">
           <h2>Home Features</h2>
           <ul class="row">
-            <li class="col-6 col-md-4 p-4">
+            <li class="col-6 col-md-4 p-3 my-1">
               <img src="@php echo get_bloginfo('stylesheet_directory') @endphp/assets/images/icons/tub.svg" alt="Jet Hot Tub"/>
               <div class="feature-name">Jet Hot Tub</div>
             </li>
-            <li class="col-6 col-md-4  p-4 my-2">
+            <li class="col-6 col-md-4  p-3 my-1">
               <img src="@php echo get_bloginfo('stylesheet_directory') @endphp/assets/images/icons/grill.svg" alt="Large Gas Grill"/>
               <div class="feature-name">Large Gas Grill</div>
-            </li class="col-6 col-md-4  p-4 my-2">
-            <li class="col-6 col-md-4  p-4 my-2">
+            </li class="col-6 col-md-4  p-3 ">
+            <li class="col-6 col-md-4  p-3 my-1">
               <img src="@php echo get_bloginfo('stylesheet_directory') @endphp/assets/images/icons/pool.svg" alt="Full-Size Pool"/>
               <div class="feature-name">Full-Size Pool</div>
             </li>
-            <li class="col-6 col-md-4  p-4 my-2">
+            <li class="col-6 col-md-4  p-3 my-1">
               <img src="@php echo get_bloginfo('stylesheet_directory') @endphp/assets/images/icons/tv.svg" alt="Flat-Screen TV"/>
-              <div class="feature-name">Flat-Screen TV</div>
+              <div class="feature-name">Flat-Screen TVs</div>
             </li>
-            <li class="col-6 col-md-4  p-4 my-2">
+            <li class="col-6 col-md-4  p-3 my-1">
               <img src="@php echo get_bloginfo('stylesheet_directory') @endphp/assets/images/icons/drinks.svg" alt="Complimentary Drink Package"/>
               <div class="feature-name">Complimentary Drink Package</div>
             </li>
-            <li class="col-6 col-md-4  p-4 my-2">
+            <li class="col-6 col-md-4  p-3 my-1">
               <img src="@php echo get_bloginfo('stylesheet_directory') @endphp/assets/images/icons/safe.svg" alt="Kid-Friendly &amp; Safe Neighborhood"/>
-              <div class="feature-name">Kid-Friendly & Safe Neighborhood</div>
+              <div class="feature-name">Kid-Friendly Neighborhood</div>
             </li>
           </ul>
         </div>

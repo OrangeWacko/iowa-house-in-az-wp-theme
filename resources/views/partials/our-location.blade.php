@@ -4,8 +4,8 @@
     <p>
       6738 E Oak St<br/>
       Scottsdale, AZ 85257<br/>
-      p: <a href="tel:515-338-7890">515-338-7890</a>
-      e: <a href="mailto:matts@email.com">matts@email.com</a>
+      <?php /*p: <a href="tel:515-338-7890">515-338-7890</a>
+      e: <a href="mailto:matts@email.com">matts@email.com</a> */ ?>
     </p>
   </div>
   <div id="map">
