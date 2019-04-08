@@ -169,6 +169,23 @@
 .attractions {
   background: $purple;
   color: white;
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    right: -30px;
+    transform: rotate(20deg);
+    bottom: -60px;
+    background: url("../images/icons/white-logo.png");
+    background-size: cover;
+    opacity: 0.2;
+    pointer-events: none;
+  }
 
   h3 {
     text-align: center;

@@ -27,8 +27,8 @@
           <h2>Home Features</h2>
           <ul class="row">
             <li class="col-6 col-md-4 p-3 my-1">
-              <img src="@php echo get_bloginfo('stylesheet_directory') @endphp/assets/images/icons/tub.svg" alt="Jet Hot Tub"/>
-              <div class="feature-name">Jet Hot Tub</div>
+              <img src="@php echo get_bloginfo('stylesheet_directory') @endphp/assets/images/icons/games.svg" alt="Outdoor Games"/>
+              <div class="feature-name">Outdoor Games</div>
             </li>
             <li class="col-6 col-md-4  p-3 my-1">
               <img src="@php echo get_bloginfo('stylesheet_directory') @endphp/assets/images/icons/grill.svg" alt="Large Gas Grill"/>
@@ -43,8 +43,8 @@
               <div class="feature-name">Flat-Screen TVs</div>
             </li>
             <li class="col-6 col-md-4  p-3 my-1">
-              <img src="@php echo get_bloginfo('stylesheet_directory') @endphp/assets/images/icons/drinks.svg" alt="Complimentary Drink Package"/>
-              <div class="feature-name">Complimentary Drink Package</div>
+              <img src="@php echo get_bloginfo('stylesheet_directory') @endphp/assets/images/icons/location.svg" alt="Prime Location"/>
+              <div class="feature-name">Prime Location</div>
             </li>
             <li class="col-6 col-md-4  p-3 my-1">
               <img src="@php echo get_bloginfo('stylesheet_directory') @endphp/assets/images/icons/safe.svg" alt="Kid-Friendly &amp; Safe Neighborhood"/>
