@@ -19,7 +19,7 @@
         <li><a href="https://www.google.com/maps/place/Wren+House+Brewing+Company/@33.4713109,-112.0321291,17z/data=!3m1!4b1!4m5!3m4!1s0x872b0dec82ce67ff:0x5b07aac588995427!8m2!3d33.4713109!4d-112.0299404" target="_blank">Wren House Brewing Company</a><span class="distance">7.2mi</span></li>
         <li><a href="https://www.google.com/maps/place/Mother+Bunch+Brewing/@33.4573066,-112.0670316,17z/data=!3m1!4b1!4m5!3m4!1s0x872b1210b777764f:0x4c2d967203bb3d12!8m2!3d33.4573066!4d-112.0648429" target="_blank">Mother Bunch Brewing</a><span class="distance">8.9mi</span></li>
         <li><a href="https://www.google.com/maps/place/Phoenix+Sky+Harbor+International+Airport/@33.4483567,-111.9615354,13z/data=!4m12!1m6!3m5!1s0x872b0b94e3c1c85f:0x1f50a7e7241f03b0!2sCRAFT+64!8m2!3d33.4933181!4d-111.9316662!3m4!1s0x872b0e5c330370a5:0x82f535d5e256ee42!8m2!3d33.437279!4d-112.0078039" target="_blank">Phoenix Sky Harbor Intl Airport</a><span class="distance">9.3mi</span></li>
-        <li><a href="https://www.google.com/maps/place/Scottsdale+Beer+Company/@33.583071,-111.8970067,17z/data=!3m1!4b1!4m5!3m4!1s0x872b75228ff0950f:0x614055ebcb698ae4!8m2!3d33.583071!4d-111.894818" target="_blank">Scottsdale Beer Company</a><span class="distance">11mi</span></li>
+        <li><a href="https://www.google.com/maps/place/Scottsdale+Beer+Company/@33.583071,-111.8970067,17z/data=!3m1!4b1!4m5!3m4!1s0x872b75228ff0950f:0x614055ebcb698ae4!8m2!3d33.583071!4d-111.894818" target="_blank">Scottsdale Beer Company</a><span class="distance">11.0mi</span></li>
         <li><a href="https://www.google.com/maps/place/SanTan+Brewing/@33.5234422,-112.0503817,17z/data=!3m1!4b1!4m5!3m4!1s0x872b12a806f1bd01:0x2f13760d2cd648f7!8m2!3d33.5234422!4d-112.048193" target="_blank">SanTan Brewing</a><span class="distance">11.5mi</span></li>
       </ol>
     </div>
@@ -264,10 +264,10 @@
         { locName: 'In-N-Burger', position: new google.maps.LatLng(33.434903,-111.9276157)},
         { locName: 'Papago Golf Course', position: new google.maps.LatLng(33.461207,-111.9640462)},
         { locName: 'Camelback Mountain', position: new google.maps.LatLng(33.5150579,-111.9706674)},
-        { locName: 'The Wandering Tortoise', position: new google.maps.LatLng(33.4483567,-111.9615354)},
+        { locName: 'The Wandering Tortoise', position: new google.maps.LatLng(33.4483616,-111.9965547)},
         { locName: 'Wren House Brewing Company', position: new google.maps.LatLng(33.4713109,-112.0321291)},
         { locName: 'Mother Bunch Brewing', position: new google.maps.LatLng(33.4573066,-112.0670316)},
-        { locName: 'Phoenix Sky Harbor Intl Airport', position: new google.maps.LatLng(33.4483567,-111.9615354)},
+        { locName: 'Phoenix Sky Harbor Intl Airport', position: new google.maps.LatLng(33.441831,-112.006766)},
         { locName: 'Scottsdale Beer Company', position: new google.maps.LatLng(33.583071,-111.8970067)},
         { locName: 'SanTan Brewing', position: new google.maps.LatLng(33.5234422,-112.0503817)},
       ];
