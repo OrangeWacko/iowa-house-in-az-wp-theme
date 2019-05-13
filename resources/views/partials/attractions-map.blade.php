@@ -261,7 +261,7 @@
         { locName: 'Kitchen 56', position: new google.maps.LatLng(33.4886297,-111.9625914)},
         { locName: 'Phoenix Municipal Stadium', position: new google.maps.LatLng(33.449186,-111.9566057)},
         { locName: 'Rolling Hills Golf Course', position: new google.maps.LatLng(33.4449783,-111.9503832)},
-        { locName: 'In-N-Burger', position: new google.maps.LatLng(33.434903,-111.9276157)},
+        { locName: 'In-N-Out Burger', position: new google.maps.LatLng(33.434903,-111.9276157)},
         { locName: 'Papago Golf Course', position: new google.maps.LatLng(33.461207,-111.9640462)},
         { locName: 'Camelback Mountain', position: new google.maps.LatLng(33.5150579,-111.9706674)},
         { locName: 'The Wandering Tortoise', position: new google.maps.LatLng(33.4483616,-111.9965547)},
