@@ -334,6 +334,66 @@
   }
 }
 
+/* Testimonials */
+#testimonials {
+  padding: 10% 6%;
+  text-align: center;
+
+  h2 {
+    color: $purple;
+    margin-bottom: 1em;
+  }
+
+  .carousel-item {
+    blockquote {
+      color: lighten($black, 10%);
+      font-family: Georgia, serif;
+      font-style: italic;
+      max-width: 800px;
+      margin: 0 auto;
+      position: relative;
+      font-size: 1.4rem;
+      margin-bottom: 0.5em;
+      padding: 30px 0;
+      z-index: 10;
+
+      &::before {
+        content: "\201C";
+        display: block;
+        color: $red;
+        font-size: 140px;
+        position: absolute;
+        z-index: -1;
+        left: -30px;
+        top: -35px;
+        width: 120px;
+        height: 120px;
+      }
+    }
+
+    h5 {
+      color: $red;
+      font-size: 0.85rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+  }
+
+  .carousel-indicators {
+    bottom: -50px;
+
+    li {
+      background: lighten($purple, 50%);
+      border: none;
+      height: 6px;
+
+      &.active {
+        background: $red;
+      }
+    }
+  }
+}
+
 /* Map */
 
 #map {

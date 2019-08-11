@@ -15,6 +15,7 @@
         <h1 class="font-weight-normal">The Iowa House: Your Perfect Getaway</h1>
         <p class="lead font-weight-normal">Enjoy this exclusive property rental, offered to Midwestern residents, located in the heart of the magnificent Arizona.</p>
         <a class="btn red" href="https://www.airbnb.com/rooms/34544046?location=6738%20East%20Oak%20Street%2C%20Scottsdale%2C%20AZ%2C%20USA&guests=1&adults=1&sl_alternate_dates_exclusion=true&source_impression_id=p3_1557606128_nxwv23WEVHnsp%2B%2Bg&check_in=2019-05-15&check_out=2019-05-18&children=0&infants=0" target="_blank">Reserve Now</a>
+        <a class="btn purple" href="/about-the-house#gallery">View Gallery</a>
       </div>
     </div>
     <div class="wrap container" role="document">
@@ -58,6 +59,7 @@
         </div>
       </div>
     </div>
+    @include ('partials.testimonials')
     @include('partials.our-location')
     @php do_action('get_footer') @endphp
     @include('partials.footer')

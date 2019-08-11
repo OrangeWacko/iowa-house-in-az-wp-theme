@@ -18,7 +18,7 @@
     @include('partials.attractions-map')
 
     <div class="container-fluid">
-      <h2 class="text-center mb-4">House Gallery</h2>
+      <h2 class="text-center mb-4" id="gallery">House Gallery</h2>
       @php
       $images = get_field('gallery_images');
 
