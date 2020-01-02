@@ -41,7 +41,7 @@
             </li class="col-6 col-md-4  p-3 ">
             <li class="col-6 col-md-4  p-3 my-1">
               <img src="@php echo get_bloginfo('stylesheet_directory') @endphp/assets/images/icons/pool.svg" alt="Full-Size Pool"/>
-              <div class="feature-name">Full-Size Pool</div>
+              <div class="feature-name">Full-Size Heated Pool</div>
             </li>
             <li class="col-6 col-md-4  p-3 my-1">
               <img src="@php echo get_bloginfo('stylesheet_directory') @endphp/assets/images/icons/tv.svg" alt="Flat-Screen TV"/>
